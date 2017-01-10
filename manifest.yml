@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: chl-iot-sectordemo
+  host: chl-iot-sectordemo
+  disk_quota: 1024M
+  services:
+  - chl-iot-sectordemo-cloudantNoSQLDB
+  - chl-iot-sectordemo-iotf-service
